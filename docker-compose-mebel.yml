@@ -1,0 +1,12 @@
+version: "3.5"
+
+services:
+  site-1:
+    image: backend
+    ports:
+      - 8080:3000
+
+  site-2:
+    image: frontend
+    ports:
+      - 80:3000
