@@ -4,7 +4,7 @@ services:
   site-1:
     image: backend
     ports:
-      - 8080:3000
+      - 8080:8080
 
   site-2:
     image: frontend
